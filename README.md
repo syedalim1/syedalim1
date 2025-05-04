@@ -12,6 +12,7 @@
       --light: #EEEEEE;
       --accent: #FC5185;
     }
+    
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background: linear-gradient(135deg, #222831 0%, #393e46 100%);
@@ -20,11 +21,13 @@
       margin: 0;
       padding: 20px;
     }
+    
     .container {
       max-width: 800px;
       margin: 0 auto;
       padding: 20px;
     }
+    
     .header {
       text-align: center;
       position: relative;
@@ -32,6 +35,7 @@
       margin-bottom: 40px;
       animation: fadeIn 1s ease-in-out;
     }
+    
     .header::after {
       content: '';
       position: absolute;
@@ -41,18 +45,21 @@
       height: 3px;
       background: linear-gradient(90deg, transparent, var(--primary), transparent);
     }
+    
     h1 {
       font-size: 3rem;
       margin-bottom: 10px;
       position: relative;
       display: inline-block;
     }
+    
     h1 span {
       color: var(--primary);
       position: relative;
       display: inline-block;
       animation: wave 2.5s ease-in-out infinite;
     }
+    
     .badge {
       display: inline-block;
       background: rgba(10, 189, 227, 0.1);
@@ -64,11 +71,13 @@
       border: 1px solid rgba(10, 189, 227, 0.3);
       transition: all 0.3s ease;
     }
+    
     .badge:hover {
       transform: translateY(-2px);
       box-shadow: 0 5px 15px rgba(10, 189, 227, 0.2);
       background: rgba(10, 189, 227, 0.2);
     }
+    
     .section {
       background: rgba(255, 255, 255, 0.05);
       border-radius: 10px;
@@ -81,16 +90,19 @@
       animation: slideUp 0.8s ease-out forwards;
       opacity: 0;
     }
+    
     .section:hover {
       transform: translateY(-5px);
       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
       background: rgba(255, 255, 255, 0.07);
     }
+    
     .section:nth-child(1) { animation-delay: 0.1s; }
     .section:nth-child(2) { animation-delay: 0.3s; }
     .section:nth-child(3) { animation-delay: 0.5s; }
     .section:nth-child(4) { animation-delay: 0.7s; }
     .section:nth-child(5) { animation-delay: 0.9s; }
+    
     .section::before {
       content: '';
       position: absolute;
@@ -100,16 +112,19 @@
       height: 3px;
       background: linear-gradient(90deg, var(--primary), var(--accent));
     }
+    
     .section-title {
       display: flex;
       align-items: center;
       margin-bottom: 15px;
       color: var(--primary);
     }
+    
     .section-icon {
       margin-right: 10px;
       font-size: 1.5rem;
-    }    
+    }
+    
     .quote {
       font-style: italic;
       border-left: 3px solid var(--primary);
@@ -117,7 +132,8 @@
       margin: 20px 0;
       position: relative;
       overflow: hidden;
-    }    
+    }
+    
     .quote::after {
       content: '"';
       position: absolute;
@@ -126,13 +142,15 @@
       font-size: 4rem;
       opacity: 0.1;
       color: var(--primary);
-    }    
+    }
+    
     .tech-stack {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       margin: 20px 0;
-    }    
+    }
+    
     .tech-icon {
       width: 50px;
       height: 50px;
@@ -143,17 +161,20 @@
       transition: all 0.3s ease;
       animation: pulse 2s infinite;
       animation-delay: calc(var(--i) * 0.2s);
-    }   
+    }
+    
     .tech-icon:hover {
       transform: translateY(-5px) rotate(5deg);
       background: rgba(255, 255, 255, 0.2);
-    }    
+    }
+    
     .toolkit {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       gap: 10px;
-    }    
+    }
+    
     .toolkit-item {
       background: rgba(10, 189, 227, 0.1);
       padding: 8px 15px;
@@ -161,19 +182,22 @@
       font-size: 0.9rem;
       border: 1px solid rgba(10, 189, 227, 0.3);
       transition: all 0.3s ease;
-    }    
+    }
+    
     .toolkit-item:hover {
       background: rgba(10, 189, 227, 0.2);
       transform: scale(1.05);
       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    }    
+    }
+    
     .social-links {
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
       gap: 15px;
       margin-top: 30px;
-    }  
+    }
+    
     .social-btn {
       display: inline-flex;
       align-items: center;
@@ -188,7 +212,8 @@
       position: relative;
       overflow: hidden;
       z-index: 1;
-    }    
+    }
+    
     .social-btn::before {
       content: '';
       position: absolute;
@@ -201,19 +226,23 @@
       transform: scaleX(0);
       transform-origin: left;
       transition: transform 0.5s ease;
-    }    
+    }
+    
     .social-btn:hover::before {
       transform: scaleX(1);
-    }    
+    }
+    
     .social-btn:hover {
       color: white;
       transform: translateY(-3px);
       box-shadow: 0 7px 15px rgba(0, 0, 0, 0.2);
-    }    
+    }
+    
     .social-icon {
       margin-right: 8px;
       font-size: 1.2rem;
-    }    
+    }
+    
     .waves {
       position: fixed;
       bottom: 0;
@@ -224,37 +253,44 @@
       min-height: 100px;
       max-height: 150px;
       z-index: -1;
-    }    
+    }
+    
     .parallax > use {
       animation: wave-move 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
-    }    
+    }
+    
     .parallax > use:nth-child(1) {
       animation-delay: -2s;
       animation-duration: 7s;
       fill: rgba(10, 189, 227, 0.1);
-    }    
+    }
+    
     .parallax > use:nth-child(2) {
       animation-delay: -3s;
       animation-duration: 10s;
       fill: rgba(10, 189, 227, 0.2);
-    }   
+    }
+    
     .parallax > use:nth-child(3) {
       animation-delay: -4s;
       animation-duration: 13s;
       fill: rgba(10, 189, 227, 0.3);
-    }    
+    }
+    
     .parallax > use:nth-child(4) {
       animation-delay: -5s;
       animation-duration: 20s;
       fill: rgba(10, 189, 227, 0.4);
-    }    
+    }
+    
     .typing-effect {
       overflow: hidden;
       white-space: nowrap;
       border-right: 3px solid var(--primary);
       width: 0;
       animation: typing 3s steps(40) forwards, blink-caret 0.75s step-end infinite;
-    }   
+    }
+    
     .particles {
       position: fixed;
       top: 0;
@@ -262,7 +298,8 @@
       width: 100%;
       height: 100%;
       z-index: -1;
-    } 
+    }
+    
     .particle {
       position: absolute;
       width: 6px;
@@ -271,7 +308,8 @@
       border-radius: 50%;
       opacity: 0.5;
       animation: float 15s linear infinite;
-    }    
+    }
+    
     @keyframes float {
       0% {
         transform: translateY(0) rotate(0deg);
@@ -284,7 +322,8 @@
         transform: translateY(-100vh) rotate(360deg);
         opacity: 0;
       }
-    }    
+    }
+    
     @keyframes wave {
       0%, 100% {
         transform: translateY(0);
@@ -292,7 +331,8 @@
       50% {
         transform: translateY(-5px);
       }
-    }    
+    }
+    
     @keyframes pulse {
       0%, 100% {
         transform: scale(1);
@@ -300,7 +340,8 @@
       50% {
         transform: scale(1.1);
       }
-    }    
+    }
+    
     @keyframes wave-move {
       0% {
         transform: translate3d(-90px, 0, 0);
@@ -308,19 +349,23 @@
       100% {
         transform: translate3d(85px, 0, 0);
       }
-    }    
+    }
+    
     @keyframes typing {
       from { width: 0 }
       to { width: 100% }
-    }    
+    }
+    
     @keyframes blink-caret {
       from, to { border-color: transparent }
       50% { border-color: var(--primary) }
-    }    
+    }
+    
     @keyframes fadeIn {
       from { opacity: 0; }
       to { opacity: 1; }
-    }    
+    }
+    
     @keyframes slideUp {
       from {
         opacity: 0;
@@ -331,6 +376,7 @@
         transform: translateY(0);
       }
     }
+
     .rotating-border {
       position: relative;
       border-radius: 10px;
@@ -339,11 +385,13 @@
       background-size: 200% 200%;
       animation: rotatingGradient 3s linear infinite;
     }
+
     .rotating-content {
       background: var(--dark);
       border-radius: 8px;
       padding: 20px;
     }
+
     @keyframes rotatingGradient {
       0% {
         background-position: 0% 50%;
@@ -355,6 +403,7 @@
         background-position: 0% 50%;
       }
     }
+
     .glow {
       text-shadow: 0 0 5px var(--primary), 0 0 10px var(--primary), 0 0 15px var(--primary);
     }
@@ -390,6 +439,7 @@
         <span class="badge">Impact with Code</span>
       </div>
     </div>
+
     <div class="section">
       <div class="section-title">
         <div class="section-icon">🚀</div>
@@ -404,6 +454,7 @@
         </div>
       </div>
     </div>
+
     <div class="section">
       <div class="section-title">
         <div class="section-icon">🔭</div>
@@ -419,6 +470,7 @@
         <li>Smart developer workflows using machine intelligence</li>
       </ul>
     </div>
+
     <div class="section">
       <div class="section-title">
         <div class="section-icon">🧠</div>
@@ -460,6 +512,7 @@
         </div>
       </div>
     </div>
+
     <div class="section">
       <div class="section-title">
         <div class="section-icon">🛠️</div>
@@ -474,6 +527,7 @@
         <div class="toolkit-item">Scalable Cloud Systems</div>
       </div>
     </div>
+
     <div class="section">
       <div class="section-title">
         <div class="section-icon">🌐</div>
