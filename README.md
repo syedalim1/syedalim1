@@ -1,586 +1,153 @@
+# <div align="center">👋 Hi there, I'm <a href="https://github.com/syedalim1"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=00ADB5&center=true&vCenter=true&width=435&lines=Syed+Ali+M" alt="Typing SVG" /></a></div>
 
-  <style>
-    :root {
-      --primary: #0abde3;
-      --secondary: #00ADB5;
-      --dark: #222831;
-      --light: #EEEEEE;
-      --accent: #FC5185;
-    }
-    
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(135deg, #222831 0%, #393e46 100%);
-      color: var(--light);
-      line-height: 1.6;
-      margin: 0;
-      padding: 20px;
-    }
-    
-    .container {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 20px;
-    }
-    
-    .header {
-      text-align: center;
-      position: relative;
-      padding: 20px 0;
-      margin-bottom: 40px;
-      animation: fadeIn 1s ease-in-out;
-    }
-    
-    .header::after {
-      content: '';
-      position: absolute;
-      bottom: 0;
-      left: 25%;
-      width: 50%;
-      height: 3px;
-      background: linear-gradient(90deg, transparent, var(--primary), transparent);
-    }
-    
-    h1 {
-      font-size: 3rem;
-      margin-bottom: 10px;
-      position: relative;
-      display: inline-block;
-    }
-    
-    h1 span {
-      color: var(--primary);
-      position: relative;
-      display: inline-block;
-      animation: wave 2.5s ease-in-out infinite;
-    }
-    
-    .badge {
-      display: inline-block;
-      background: rgba(10, 189, 227, 0.1);
-      color: var(--primary);
-      padding: 3px 10px;
-      border-radius: 15px;
-      font-size: 0.8rem;
-      margin: 3px;
-      border: 1px solid rgba(10, 189, 227, 0.3);
-      transition: all 0.3s ease;
-    }
-    
-    .badge:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 5px 15px rgba(10, 189, 227, 0.2);
-      background: rgba(10, 189, 227, 0.2);
-    }
-    
-    .section {
-      background: rgba(255, 255, 255, 0.05);
-      border-radius: 10px;
-      padding: 25px;
-      margin-bottom: 30px;
-      position: relative;
-      overflow: hidden;
-      transition: all 0.3s ease;
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      animation: slideUp 0.8s ease-out forwards;
-      opacity: 0;
-    }
-    
-    .section:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-      background: rgba(255, 255, 255, 0.07);
-    }
-    
-    .section:nth-child(1) { animation-delay: 0.1s; }
-    .section:nth-child(2) { animation-delay: 0.3s; }
-    .section:nth-child(3) { animation-delay: 0.5s; }
-    .section:nth-child(4) { animation-delay: 0.7s; }
-    .section:nth-child(5) { animation-delay: 0.9s; }
-    
-    .section::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 3px;
-      background: linear-gradient(90deg, var(--primary), var(--accent));
-    }
-    
-    .section-title {
-      display: flex;
-      align-items: center;
-      margin-bottom: 15px;
-      color: var(--primary);
-    }
-    
-    .section-icon {
-      margin-right: 10px;
-      font-size: 1.5rem;
-    }
-    
-    .quote {
-      font-style: italic;
-      border-left: 3px solid var(--primary);
-      padding-left: 15px;
-      margin: 20px 0;
-      position: relative;
-      overflow: hidden;
-    }
-    
-    .quote::after {
-      content: '"';
-      position: absolute;
-      bottom: -20px;
-      right: 10px;
-      font-size: 4rem;
-      opacity: 0.1;
-      color: var(--primary);
-    }
-    
-    .tech-stack {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      margin: 20px 0;
-    }
-    
-    .tech-icon {
-      width: 50px;
-      height: 50px;
-      margin: 10px;
-      padding: 8px;
-      background: rgba(255, 255, 255, 0.1);
-      border-radius: 10px;
-      transition: all 0.3s ease;
-      animation: pulse 2s infinite;
-      animation-delay: calc(var(--i) * 0.2s);
-    }
-    
-    .tech-icon:hover {
-      transform: translateY(-5px) rotate(5deg);
-      background: rgba(255, 255, 255, 0.2);
-    }
-    
-    .toolkit {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 10px;
-    }
-    
-    .toolkit-item {
-      background: rgba(10, 189, 227, 0.1);
-      padding: 8px 15px;
-      border-radius: 20px;
-      font-size: 0.9rem;
-      border: 1px solid rgba(10, 189, 227, 0.3);
-      transition: all 0.3s ease;
-    }
-    
-    .toolkit-item:hover {
-      background: rgba(10, 189, 227, 0.2);
-      transform: scale(1.05);
-      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    }
-    
-    .social-links {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 15px;
-      margin-top: 30px;
-    }
-    
-    .social-btn {
-      display: inline-flex;
-      align-items: center;
-      padding: 10px 20px;
-      background: var(--dark);
-      color: var(--light);
-      border-radius: 30px;
-      text-decoration: none;
-      font-weight: 500;
-      transition: all 0.3s ease;
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      position: relative;
-      overflow: hidden;
-      z-index: 1;
-    }
-    
-    .social-btn::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: linear-gradient(45deg, var(--primary), var(--accent));
-      z-index: -1;
-      transform: scaleX(0);
-      transform-origin: left;
-      transition: transform 0.5s ease;
-    }
-    
-    .social-btn:hover::before {
-      transform: scaleX(1);
-    }
-    
-    .social-btn:hover {
-      color: white;
-      transform: translateY(-3px);
-      box-shadow: 0 7px 15px rgba(0, 0, 0, 0.2);
-    }
-    
-    .social-icon {
-      margin-right: 8px;
-      font-size: 1.2rem;
-    }
-    
-    .waves {
-      position: fixed;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      height: 15vh;
-      margin-bottom: -7px;
-      min-height: 100px;
-      max-height: 150px;
-      z-index: -1;
-    }
-    
-    .parallax > use {
-      animation: wave-move 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
-    }
-    
-    .parallax > use:nth-child(1) {
-      animation-delay: -2s;
-      animation-duration: 7s;
-      fill: rgba(10, 189, 227, 0.1);
-    }
-    
-    .parallax > use:nth-child(2) {
-      animation-delay: -3s;
-      animation-duration: 10s;
-      fill: rgba(10, 189, 227, 0.2);
-    }
-    
-    .parallax > use:nth-child(3) {
-      animation-delay: -4s;
-      animation-duration: 13s;
-      fill: rgba(10, 189, 227, 0.3);
-    }
-    
-    .parallax > use:nth-child(4) {
-      animation-delay: -5s;
-      animation-duration: 20s;
-      fill: rgba(10, 189, 227, 0.4);
-    }
-    
-    .typing-effect {
-      overflow: hidden;
-      white-space: nowrap;
-      border-right: 3px solid var(--primary);
-      width: 0;
-      animation: typing 3s steps(40) forwards, blink-caret 0.75s step-end infinite;
-    }
-    
-    .particles {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      z-index: -1;
-    }
-    
-    .particle {
-      position: absolute;
-      width: 6px;
-      height: 6px;
-      background: var(--primary);
-      border-radius: 50%;
-      opacity: 0.5;
-      animation: float 15s linear infinite;
-    }
-    
-    @keyframes float {
-      0% {
-        transform: translateY(0) rotate(0deg);
-        opacity: 0.5;
-      }
-      50% {
-        opacity: 0.3;
-      }
-      100% {
-        transform: translateY(-100vh) rotate(360deg);
-        opacity: 0;
-      }
-    }
-    
-    @keyframes wave {
-      0%, 100% {
-        transform: translateY(0);
-      }
-      50% {
-        transform: translateY(-5px);
-      }
-    }
-    
-    @keyframes pulse {
-      0%, 100% {
-        transform: scale(1);
-      }
-      50% {
-        transform: scale(1.1);
-      }
-    }
-    
-    @keyframes wave-move {
-      0% {
-        transform: translate3d(-90px, 0, 0);
-      }
-      100% {
-        transform: translate3d(85px, 0, 0);
-      }
-    }
-    
-    @keyframes typing {
-      from { width: 0 }
-      to { width: 100% }
-    }
-    
-    @keyframes blink-caret {
-      from, to { border-color: transparent }
-      50% { border-color: var(--primary) }
-    }
-    
-    @keyframes fadeIn {
-      from { opacity: 0; }
-      to { opacity: 1; }
-    }
-    
-    @keyframes slideUp {
-      from {
-        opacity: 0;
-        transform: translateY(30px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
+<div align="center">
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00ADB5&center=true&vCenter=true&width=435&lines=Founder+%26+CEO+of+CodeNovaTech;AI+Automation+Strategist;Full-Stack+Developer;Tech+with+Purpose+%7C+Impact+with+Code" alt="Typing SVG" /></a>
+</div>
 
-    .rotating-border {
-      position: relative;
-      border-radius: 10px;
-      padding: 3px;
-      background: linear-gradient(90deg, var(--primary), var(--accent), var(--primary));
-      background-size: 200% 200%;
-      animation: rotatingGradient 3s linear infinite;
-    }
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0abde3&height=120&section=header&text=&fontSize=90" width="100%"/>
+</div>
 
-    .rotating-content {
-      background: var(--dark);
-      border-radius: 8px;
-      padding: 20px;
-    }
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="25"> <b>About Me</b>
 
-    @keyframes rotatingGradient {
-      0% {
-        background-position: 0% 50%;
-      }
-      50% {
-        background-position: 100% 50%;
-      }
-      100% {
-        background-position: 0% 50%;
-      }
-    }
+<div align="center">
+  <img align="right" height="250" width="400" alt="GIF" src="https://camo.githubusercontent.com/61491d59e71fec5c794945fed916a4a682b6c0404fc31f30b08a0d919c558404/68747470733a2f2f696d616765732e73717561726573706163652d63646e2e636f6d2f636f6e74656e742f76312f3537363966633430316236333162616231616464623261622f313534313538303631313632342d5445363451474b524a4738535741495553374e532f6b6531375a77644742546f6464493870446d34386b506f73776c7a6a53564d4d2d53784f703743563539425a772d7a505067646e346a557756634a45315a7657515578776b6d794578676c4e714770304976544a5a616d574c49327a76595748384b332d735f3479737a63703272795449304871544f6161556f68724938504936465879386339505774426c7141566c555335697a7064634958445a71445976707252715a32395077306f2f636f64696e672d667265616b2e676966"/>
+  
+  🌟 Founder & CEO of **[CodeNovaTech](https://github.com/syedalim1)** — revolutionizing web & app development with **AI-powered solutions**.
+  
+  🎓 Final-year Computer Science student with a deep passion for automation & innovation.
+  
+  💼 I specialize in creating scalable full-stack systems and tools that **code, design & deploy themselves**.
+  
+  🎯 My goal: To bridge the gap between vision and execution using tech.
+</div>
 
-    .glow {
-      text-shadow: 0 0 5px var(--primary), 0 0 10px var(--primary), 0 0 15px var(--primary);
-    }
-  </style>
+<br>
 
-<body>
-  <div class="particles" id="particles">
-    <!-- Particles will be added with JS -->
-  </div>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-  <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
-    <defs>
-      <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
-    </defs>
-    <g class="parallax">
-      <use xlink:href="#gentle-wave" x="48" y="0" />
-      <use xlink:href="#gentle-wave" x="48" y="3" />
-      <use xlink:href="#gentle-wave" x="48" y="5" />
-      <use xlink:href="#gentle-wave" x="48" y="7" />
-    </g>
-  </svg>
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="25"> <b>What Drives Me?</b>
 
-  <div class="container">
-    <div class="header">
-      <h1>👋 Hi there, I'm <span>Syed Ali M</span></h1>
-      <div id="typing-container" style="height: 30px; margin: 15px 0;">
-        <div class="typing-effect" id="typing-text">Founder & CEO of CodeNovaTech</div>
-      </div>
-      <div style="margin-top: 15px;">
-        <span class="badge">AI Automation Strategist</span>
-        <span class="badge">Full-Stack Developer</span>
-        <span class="badge">Tech with Purpose</span>
-        <span class="badge">Impact with Code</span>
-      </div>
-    </div>
+<img align="left" height="150" src="https://raw.githubusercontent.com/Adam-pw/Adam-pw/main/animation_500_kxa883sd.gif" />
 
-    <div class="section">
-      <div class="section-title">
-        <div class="section-icon">🚀</div>
-        <h2>Who Am I?</h2>
-      </div>
-      <div class="rotating-border">
-        <div class="rotating-content">
-          <p><span class="glow">🌟</span> Founder & CEO of <strong>CodeNovaTech</strong> — revolutionizing web & app development with <strong>AI-powered solutions</strong>.</p>
-          <p><span class="glow">🎓</span> Final-year Computer Science student with a deep passion for automation & innovation.</p>
-          <p><span class="glow">💼</span> I specialize in creating scalable full-stack systems and tools that <strong>code, design & deploy themselves</strong>.</p>
-          <p><span class="glow">🎯</span> My goal: To bridge the gap between vision and execution using tech.</p>
-        </div>
-      </div>
-    </div>
+> *"I don't just build code. I build companies, ecosystems, and intelligent workflows."*
 
-    <div class="section">
-      <div class="section-title">
-        <div class="section-icon">🔭</div>
-        <h2>What Drives Me?</h2>
-      </div>
-      <div class="quote">
-        "I don't just build code. I build companies, ecosystems, and intelligent workflows."
-      </div>
-      <p><span class="glow">⚡</span> Currently focused on:</p>
-      <ul>
-        <li>AI-first development platforms</li>
-        <li>Auto-generation of UI, backend & APIs</li>
-        <li>Smart developer workflows using machine intelligence</li>
-      </ul>
-    </div>
+⚡ Currently focused on:
+- AI-first development platforms  
+- Auto-generation of UI, backend & APIs  
+- Smart developer workflows using machine intelligence  
 
-    <div class="section">
-      <div class="section-title">
-        <div class="section-icon">🧠</div>
-        <h2>Tech Arsenal</h2>
-      </div>
-      <div class="tech-stack">
-        <div class="tech-icon" style="--i:0;">
-          <img src="/api/placeholder/40/40" alt="HTML" />
-        </div>
-        <div class="tech-icon" style="--i:1;">
-          <img src="/api/placeholder/40/40" alt="CSS" />
-        </div>
-        <div class="tech-icon" style="--i:2;">
-          <img src="/api/placeholder/40/40" alt="JavaScript" />
-        </div>
-        <div class="tech-icon" style="--i:3;">
-          <img src="/api/placeholder/40/40" alt="React" />
-        </div>
-        <div class="tech-icon" style="--i:4;">
-          <img src="/api/placeholder/40/40" alt="Node.js" />
-        </div>
-        <div class="tech-icon" style="--i:5;">
-          <img src="/api/placeholder/40/40" alt="Python" />
-        </div>
-        <div class="tech-icon" style="--i:6;">
-          <img src="/api/placeholder/40/40" alt="MongoDB" />
-        </div>
-        <div class="tech-icon" style="--i:7;">
-          <img src="/api/placeholder/40/40" alt="Docker" />
-        </div>
-        <div class="tech-icon" style="--i:8;">
-          <img src="/api/placeholder/40/40" alt="Git" />
-        </div>
-        <div class="tech-icon" style="--i:9;">
-          <img src="/api/placeholder/40/40" alt="VS Code" />
-        </div>
-        <div class="tech-icon" style="--i:10;">
-          <img src="/api/placeholder/40/40" alt="Figma" />
-        </div>
-      </div>
-    </div>
+<br>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-    <div class="section">
-      <div class="section-title">
-        <div class="section-icon">🛠️</div>
-        <h2>Toolkits & Frameworks</h2>
-      </div>
-      <div class="toolkit">
-        <div class="toolkit-item">MERN Stack</div>
-        <div class="toolkit-item">REST & GraphQL</div>
-        <div class="toolkit-item">AI Models Integration</div>
-        <div class="toolkit-item">CI/CD</div>
-        <div class="toolkit-item">Clean Architecture</div>
-        <div class="toolkit-item">Scalable Cloud Systems</div>
-      </div>
-    </div>
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="25"> <b>Tech Arsenal</b>
 
-    <div class="section">
-      <div class="section-title">
-        <div class="section-icon">🌐</div>
-        <h2>Connect With Me</h2>
-      </div>
-      <div class="social-links">
-        <a href="https://linkedin.com/in/syedalim" target="_blank" class="social-btn">
-          <span class="social-icon">in</span> LinkedIn
-        </a>
-        <a href="mailto:syedsyed3777@gmail.com" target="_blank" class="social-btn">
-          <span class="social-icon">✉️</span> Gmail
-        </a>
-        <a href="https://github.com/syedalim1" target="_blank" class="social-btn">
-          <span class="social-icon">⌨️</span> GitHub
-        </a>
-      </div>
-    </div>
-  </div>
+<div align="center">
+  
+  ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+  ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+  ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+  ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+  ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+  ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+  ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+  ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+  ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+  ![VS Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+  ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+  
+</div>
 
-  <script>
-    // Create particles
-    const particles = document.getElementById('particles');
-    for (let i = 0; i < 30; i++) {
-      const particle = document.createElement('div');
-      particle.classList.add('particle');
-      particle.style.left = `${Math.random() * 100}%`;
-      particle.style.top = `${Math.random() * 100}%`;
-      particle.style.animationDuration = `${15 + Math.random() * 30}s`;
-      particle.style.animationDelay = `${Math.random() * 5}s`;
-      particles.appendChild(particle);
-    }
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=syedalim1&theme=radical&layout=compact&hide_border=true" />
+</div>
 
-    // Typing effect
-    const texts = [
-      "Founder & CEO of CodeNovaTech",
-      "AI Automation Strategist",
-      "Full-Stack Developer",
-      "Tech with Purpose | Impact with Code"
-    ];
-    let textIndex = 0;
-    const typingText = document.getElementById('typing-text');
-    
-    function typeNextText() {
-      typingText.textContent = '';
-      typingText.style.width = '0';
-      typingText.style.animation = 'none';
-      
-      setTimeout(() => {
-        typingText.textContent = texts[textIndex];
-        typingText.style.animation = 'typing 3s steps(40) forwards, blink-caret 0.75s step-end infinite';
-        
-        textIndex = (textIndex + 1) % texts.length;
-        
-        setTimeout(typeNextText, 4000);
-      }, 500);
-    }
-    
-    typeNextText();
-  </script>
-</body>
-</html>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+## <img src="https://media.giphy.com/media/cj87CxfRtrUifF3Ryk/giphy.gif" width="25"> <b>Toolkits & Frameworks</b>
+
+<div align="center">
+  
+  <table>
+    <tr>
+      <td align="center" width="96">
+        <img src="https://techstack-generator.vercel.app/react-icon.svg" width="65" height="65" alt="React" />
+        <br>React.js
+      </td>
+      <td align="center" width="96">
+        <img src="https://techstack-generator.vercel.app/js-icon.svg" width="65" height="65" alt="JavaScript" />
+        <br>JavaScript
+      </td>
+      <td align="center" width="96">
+        <img src="https://techstack-generator.vercel.app/ts-icon.svg" width="65" height="65" alt="TypeScript" />
+        <br>TypeScript
+      </td>
+      <td align="center" width="96">
+        <img src="https://techstack-generator.vercel.app/restapi-icon.svg" width="65" height="65" alt="Rest API" />
+        <br>REST API
+      </td>
+      <td align="center" width="96">
+        <img src="https://techstack-generator.vercel.app/graphql-icon.svg" width="65" height="65" alt="GraphQL" />
+        <br>GraphQL
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="96">
+        <img src="https://techstack-generator.vercel.app/docker-icon.svg" width="65" height="65" alt="Docker" />
+        <br>Docker
+      </td>
+      <td align="center" width="96">
+        <img src="https://techstack-generator.vercel.app/github-icon.svg" width="65" height="65" alt="GitHub" />
+        <br>GitHub
+      </td>
+      <td align="center" width="96">
+        <img src="https://techstack-generator.vercel.app/python-icon.svg" width="65" height="65" alt="Python" />
+        <br>Python
+      </td>
+      <td align="center" width="96">
+        <img src="https://techstack-generator.vercel.app/mongodb-icon.svg" width="65" height="65" alt="MongoDB" />
+        <br>MongoDB
+      </td>
+      <td align="center" width="96">
+        <img src="https://techstack-generator.vercel.app/aws-icon.svg" width="65" height="65" alt="AWS" />
+        <br>AWS
+      </td>
+    </tr>
+  </table>
+  
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+## <img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width="40"> <b>Connect With Me</b>
+
+<div align="center">
+  <a href="https://linkedin.com/in/syedalim" target="_blank">
+    <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="mailto:syedsyed3777@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/-Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+  <a href="https://github.com/syedalim1" target="_blank">
+    <img src="https://img.shields.io/badge/-GitHub-000?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+</div>
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=syedalim1&style=flat-square&color=blue" alt="Profile Views"/>
+</div>
+
+<div align="center">
+  <img height="120" alt="Thanks for visiting me" width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0abde3&height=120&section=footer"/>
+</div>
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=syedalim1&theme=radical&no-frame=true&no-bg=true&column=7" width="100%" alt="Trophy" align="middle" />
+</div>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=syedalim1&locale=en&mode=daily&theme=radical&hide_border=true&border_radius=5" height="150" alt="streak graph" />
+  <img src="https://github-readme-stats.vercel.app/api?username=syedalim1&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=radical&locale=en&hide_border=true" height="150" alt="stats graph" />
+</div>
+
+![Snake animation](https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg)
