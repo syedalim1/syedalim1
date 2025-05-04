@@ -62,5 +62,3 @@
 
 
 ---
-
-<p align="center"><i>“Build boldly. Automate intelligently. Lead with vision.”</i></p>
