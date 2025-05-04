@@ -169,8 +169,8 @@
         <br>Python
       </td>
       <td align="center" width="96">
-        <img src="https://techstack-generator.vercel.app/mongodb-icon.svg" width="65" height="65" alt="MongoDB" />
-        <br>MongoDB
+        <img src="https://techstack-generator.vercel.app/java-icon.svg" width="65" height="65" alt="MongoDB" />
+        <br>Java
       </td>
       <td align="center" width="96">
         <img src="https://techstack-generator.vercel.app/aws-icon.svg" width="65" height="65" alt="AWS" />
