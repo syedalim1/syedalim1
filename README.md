@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Syed Ali M - GitHub Profile</title>
+
   <style>
     :root {
       --primary: #0abde3;
@@ -408,7 +403,7 @@
       text-shadow: 0 0 5px var(--primary), 0 0 10px var(--primary), 0 0 15px var(--primary);
     }
   </style>
-</head>
+
 <body>
   <div class="particles" id="particles">
     <!-- Particles will be added with JS -->
