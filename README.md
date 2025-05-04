@@ -150,17 +150,6 @@
 
 ## <img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width="40"> <b>Connect With Me</b>
 
-<div align="center">
-  <a href="https://linkedin.com/in/syedalim" target="_blank">
-    <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="mailto:syedsyed3777@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/-Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-  <a href="https://github.com/syedalim1" target="_blank">
-    <img src="https://img.shields.io/badge/-GitHub-000?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-</div>
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=syedalim1&style=flat-square&color=blue" alt="Profile Views"/>
