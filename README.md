@@ -162,21 +162,5 @@
   </a>
 </div>
 
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=syedalim1&style=flat-square&color=blue" alt="Profile Views"/>
-</div>
-
-<div align="center">
-  <img height="120" alt="Thanks for visiting me" width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0abde3&height=120&section=footer"/>
-</div>
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=syedalim1&theme=radical&no-frame=true&no-bg=true&column=7" width="100%" alt="Trophy" align="middle" />
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=syedalim1&locale=en&mode=daily&theme=radical&hide_border=true&border_radius=5" height="150" alt="streak graph" />
-  <img src="https://github-readme-stats.vercel.app/api?username=syedalim1&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=radical&locale=en&hide_border=true" height="150" alt="stats graph" />
-</div>
 
 ![Snake animation](https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg)
