@@ -4,9 +4,7 @@
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=24&duration=3000&pause=1000&color=00D9FF;8A2BE2;FF69B4&background=00000000¢er=true&vCenter=true&multiline=true&width=650&height=120&lines=🚀+Founder+%26+CEO+of+CodeNovaTech;🤖+AI+Automation+Strategist;💻+Full-Stack+Developer;✨+Tech+with+Purpose+%7C+Impact+with+Code" alt="Typing SVG - Roles" /></a>
 </div>
 
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="80" alt="Orbiting spheres">
-  
+<div align="center">  
   <p>
     🌟 **Founder & CEO** of **<a href="https://github.com/CodeNovaTech" style="color: #FF69B4; text-decoration: none;">CodeNovaTech</a>** — revolutionizing web & app development with **AI-powered solutions**.
   </p>
@@ -22,11 +20,6 @@
   <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="80" alt="Orbiting spheres">
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 
 
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Toolbox.png" alt="Toolbox" width="35" height="35" /> <b><span style="color: #FFD93D;">Tech Arsenal</span></b> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Desktop%20Computer.png" alt="Desktop Computer" width="35" height="35" />
