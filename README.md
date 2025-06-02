@@ -30,20 +30,3 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Toolbox.png" alt="Toolbox" width="35" height="35" /> <b><span style="color: #FFD93D;">Tech Arsenal</span></b> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Desktop%20Computer.png" alt="Desktop Computer" width="35" height="35" />
-
-<div align="center">
-  
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,express,python,django,flask,mongodb,postgresql,docker,kubernetes,aws,gcp,git,vscode,figma,linux&perline=11&theme=dark" alt="My Skills"/>
-  <br><br>
-  <img src="https://github-readme-stats.vercel.app/api?username=syedalim1&show_icons=true&theme=radical&rank_icon=github&border_radius=10&hide_border=false&title_color=00D9FF&icon_color=00D9FF&text_color=FFFFFF&bg_color=00000000" alt="Syed Ali's GitHub Stats" />
-  <br>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=syedalim1&layout=compact&theme=radical&langs_count=8&border_radius=10&hide_border=false&title_color=00D9FF&text_color=FFFFFF&bg_color=00000000" alt="Top Languages" />
-  <br>
-  <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="450" alt="Coding GIF">
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand%20Light%20Skin%20Tone.png" alt="Waving Hand Light Skin Tone" width="40" height="40" /> <b><span style="color: #FF9A8B;">Let's Connect & Innovate!</span></b>
